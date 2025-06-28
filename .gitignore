@@ -1,0 +1,63 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio folder
+.vs/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+# NuGet v3
+*.lock.json
+project.assets.json
+
+# Rider
+.idea/
+
+# Others
+*.log
+*.tlog
+*.pdb
+*.cache
+*.tmp
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Windows image cache
+Thumbs.db
+
+# macOS
+.DS_Store
+
+# Azure WebJobs
+app_data/
+
+# VS Code settings
+.vscode/
+
+# Local environment files
+.env
