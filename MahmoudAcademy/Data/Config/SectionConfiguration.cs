@@ -30,6 +30,10 @@ namespace MahmoudAcademy.Data.Config
                 .WithMany(s => s.Sections)
                 .UsingEntity<SectionSchedule>();
 
+            builder.HasMany(s => s.Students)
+                .WithMany(s => s.Sections)
+                .UsingEntity<Enrollment>();
+
             builder.ToTable("Sections");
 
             builder.HasData(LoadSections());
